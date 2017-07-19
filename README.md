@@ -8,7 +8,7 @@ If you are not check out https://en.wikipedia.org/wiki/Riemann_zeta_function.
 
 If you just want the function here it is.
 
-'''
+```
 double zeta(double num) {
 	double out = 0;
 	const double iterations = 100000000;
@@ -19,4 +19,4 @@ double zeta(double num) {
 	}
 	return out;
 }
-'''
+```
